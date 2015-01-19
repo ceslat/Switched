@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Switched - JQuery CheckBox Switch by @ceslat</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.switched.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.switched.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#switch").Switched({
+			labelOn: 'Si',
+			labelOff: 'No'
+		});
+		$(".switch").Switched();
+	});
+	</script>
+</head>
+<body>
+	<input type="checkbox" id="switch">
+	<input type="checkbox" class="switch">
+	<input type="checkbox" class="switch">
+</body>
+</html>
